@@ -1,0 +1,16 @@
+<sixx sixx.version="1.0">
+	<sixx.object sixx.id="0" sixx.type="DaskalosProject" >
+		<sixx.object sixx.id="1" sixx.name="name" sixx.type="String" >Library Management System &#40;LMS&#41;</sixx.object>
+		<sixx.object sixx.id="2" sixx.name="author" sixx.type="String" >Vít Vejnárek</sixx.object>
+		<sixx.object sixx.id="3" sixx.name="description" sixx.type="String" >Systém pro správu knihovny. Bude zde možné si půjčit knihu&#44; vrátit jí nebo například knihovnice může přidat úplně novou knihu.
+
+Třídy</sixx.object>
+		<sixx.object sixx.id="4" sixx.name="workspaceVariables" sixx.type="Dictionary" ></sixx.object>
+		<sixx.object sixx.id="5" sixx.name="workspaceText" sixx.type="String" ></sixx.object>
+		<sixx.object sixx.id="6" sixx.name="scriptText" sixx.type="String" >&quot;Note that variables begining with uppercase letter will be moved into the workspace pool.&quot;</sixx.object>
+		<sixx.object sixx.id="7" sixx.name="messagesWithParMode" sixx.type="Symbol" >sendOnly</sixx.object>
+		<sixx.object sixx.id="8" sixx.name="messagesWithoutParMode" sixx.type="Symbol" >sendAndBrowse</sixx.object>
+		<sixx.object sixx.id="9" sixx.name="diagramSymbols" sixx.type="Set" ></sixx.object>
+		<sixx.object sixx.id="10" sixx.name="diagramConnections" sixx.type="Set" ></sixx.object>
+	</sixx.object>
+</sixx>
