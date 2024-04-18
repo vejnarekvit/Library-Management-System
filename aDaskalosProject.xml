@@ -3,7 +3,7 @@
 		<sixx.object sixx.id="1" sixx.name="name" sixx.type="String" >Library Management System &#40;LMS&#41;</sixx.object>
 		<sixx.object sixx.id="2" sixx.name="author" sixx.type="String" >Vít Vejnárek</sixx.object>
 		<sixx.object sixx.id="3" sixx.name="description" sixx.type="String" >Systém pro správu knihovny. Bude zde možné si půjčit knihu&#44; vrátit jí nebo například knihovnice může přidat úplně novou knihu.
-
+asd
 Třídy</sixx.object>
 		<sixx.object sixx.id="4" sixx.name="workspaceVariables" sixx.type="Dictionary" ></sixx.object>
 		<sixx.object sixx.id="5" sixx.name="workspaceText" sixx.type="String" ></sixx.object>
