@@ -157,7 +157,7 @@ initialize
 <TABLE WIDTH=95% BORDER="1" CELLSPACING="0" BORDERCOLOR=BLACK>
 <TR><TD><BIG>
 <B><CODE>
-Customer
+Librarian
 </CODE></B>
 </BIG></TD></TR>
 <TR><TD>
@@ -184,14 +184,38 @@ Customer
 <TABLE WIDTH=95% BORDER="1" CELLSPACING="0" BORDERCOLOR=BLACK>
 <TR><TD><BIG>
 <B><CODE>
-Librarian
+Customer
 </CODE></B>
 </BIG></TD></TR>
 <TR><TD>
 <I><SMALL>instance variables</SMALL></I><BR>
+<CODE>
+borrowed_books :Bag
+</CODE>
+<BR>
+<CODE>
+money :Number
+</CODE>
+<BR>
 </TD></TR>
 <TR><TD>
 <I><SMALL>methods</SMALL></I><BR>
+<CODE>
+borrowed_books
+</CODE>
+<BR>
+<CODE>
+initialize
+</CODE>
+<BR>
+<CODE>
+money
+</CODE>
+<BR>
+<CODE>
+money:
+</CODE>
+<BR>
 </TD></TR>
 </TABLE>
 </TD>
@@ -204,6 +228,18 @@ Librarian
 </TABLE>
 <H4>code of non-accessing methods: </H4>
 <UL>
+<LI>
+<B><CODE>
+initialize
+</CODE></B>
+<PRE>
+	&quot;	&#42;&#42;&#42;This is decompiled code.&#42;&#42;&#42; 
+	No source was available&quot;
+
+	super initialize.
+	borrowed_books := Bag new.
+	money := nil.
+	^self</PRE>
 </UL>
 <TABLE BORDER="0" CELLPADDING="3" CELLSPACING="0" WIDTH=100%>
 <TR>

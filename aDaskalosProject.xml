@@ -12,238 +12,34 @@ Třídy</sixx.object>
 		<sixx.object sixx.id="8" sixx.name="messagesWithoutParMode" sixx.type="Symbol" >sendAndBrowse</sixx.object>
 		<sixx.object sixx.id="9" sixx.name="diagramSymbols" sixx.type="Set" >
 			<sixx.object sixx.id="10" sixx.type="DaskalosClassSymbol" >
-				<sixx.object sixx.id="11" sixx.name="subject" sixx.type="Symbol" >Librarian</sixx.object>
-				<sixx.object sixx.id="12" sixx.name="position" sixx.type="Rectangle" >290@80 corner: 430@150</sixx.object>
-				<sixx.object sixx.id="13" sixx.name="methodsText" sixx.type="ComposedText" >
-					<sixx.object sixx.id="14" sixx.name="text" sixx.type="Text" >
-						<sixx.object sixx.id="15" sixx.name="string" sixx.type="String" ></sixx.object>
-						<sixx.object sixx.id="16" sixx.name="runs" sixx.type="RunArray" >
-							<sixx.object sixx.id="17" sixx.name="runs" sixx.type="Array" ></sixx.object>
-							<sixx.object sixx.id="18" sixx.name="values" sixx.type="Array" ></sixx.object>
-						</sixx.object>
-					</sixx.object>
-					<sixx.object sixx.id="19" sixx.name="compositionWidth" sixx.type="SmallInteger" >0</sixx.object>
-					<sixx.object sixx.name="compositionHeight" sixx.idref="19" />
-					<sixx.object sixx.name="wordWrap" sixx.type="True" />
-					<sixx.object sixx.id="20" sixx.name="lineTable" sixx.type="OptimizedLineInformationTable" >
-						<sixx.object sixx.id="21" sixx.name="lines" sixx.type="Array" >
-							<sixx.object sixx.id="22" sixx.type="SmallInteger" >1</sixx.object>
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-						</sixx.object>
-						<sixx.object sixx.name="lastLine" sixx.idref="19" />
-					</sixx.object>
-					<sixx.object sixx.name="fitWidth" sixx.type="True" />
-				</sixx.object>
-				<sixx.object sixx.id="23" sixx.name="instVarsText" sixx.type="ComposedText" >
-					<sixx.object sixx.id="24" sixx.name="text" sixx.type="Text" >
-						<sixx.object sixx.id="25" sixx.name="string" sixx.type="String" > </sixx.object>
-						<sixx.object sixx.id="26" sixx.name="runs" sixx.type="RunArray" >
-							<sixx.object sixx.id="27" sixx.name="runs" sixx.type="Array" >
-								<sixx.object sixx.idref="22" />
-							</sixx.object>
-							<sixx.object sixx.id="28" sixx.name="values" sixx.type="Array" >
-								<sixx.object sixx.type="UndefinedObject" />
-							</sixx.object>
-						</sixx.object>
-					</sixx.object>
-					<sixx.object sixx.id="29" sixx.name="compositionWidth" sixx.type="SmallInteger" >3</sixx.object>
-					<sixx.object sixx.id="30" sixx.name="compositionHeight" sixx.type="SmallInteger" >15</sixx.object>
-					<sixx.object sixx.name="wordWrap" sixx.type="True" />
-					<sixx.object sixx.id="31" sixx.name="lineTable" sixx.type="OptimizedLineInformationTable" >
-						<sixx.object sixx.id="32" sixx.name="lines" sixx.type="Array" >
-							<sixx.object sixx.idref="22" />
-							<sixx.object sixx.id="33" sixx.type="SmallInteger" >2</sixx.object>
-							<sixx.object sixx.type="UndefinedObject" />
-						</sixx.object>
-						<sixx.object sixx.name="lastLine" sixx.idref="22" />
-					</sixx.object>
-					<sixx.object sixx.name="fitWidth" sixx.type="True" />
-				</sixx.object>
-				<sixx.object sixx.id="34" sixx.name="compositionConnections" sixx.type="Set" ></sixx.object>
+				<sixx.object sixx.id="11" sixx.name="subject" sixx.type="Symbol" >Customer</sixx.object>
+				<sixx.object sixx.id="12" sixx.name="position" sixx.type="Rectangle" >410@290 corner: 540@410</sixx.object>
+				<sixx.object sixx.id="13" sixx.name="compositionConnections" sixx.type="Set" ></sixx.object>
 			</sixx.object>
-			<sixx.object sixx.id="35" sixx.type="DaskalosClassSymbol" >
-				<sixx.object sixx.id="36" sixx.name="subject" sixx.type="Symbol" >Book</sixx.object>
-				<sixx.object sixx.id="37" sixx.name="position" sixx.type="Rectangle" >160@30 corner: 260@180</sixx.object>
-				<sixx.object sixx.id="38" sixx.name="methodsText" sixx.type="ComposedText" >
-					<sixx.object sixx.id="39" sixx.name="text" sixx.type="Text" >
-						<sixx.object sixx.name="string" sixx.idref="15" />
-						<sixx.object sixx.id="40" sixx.name="runs" sixx.type="RunArray" >
-							<sixx.object sixx.id="41" sixx.name="runs" sixx.type="Array" ></sixx.object>
-							<sixx.object sixx.id="42" sixx.name="values" sixx.type="Array" ></sixx.object>
-						</sixx.object>
-					</sixx.object>
-					<sixx.object sixx.name="compositionWidth" sixx.idref="19" />
-					<sixx.object sixx.name="compositionHeight" sixx.idref="19" />
-					<sixx.object sixx.name="wordWrap" sixx.type="True" />
-					<sixx.object sixx.id="43" sixx.name="lineTable" sixx.type="OptimizedLineInformationTable" >
-						<sixx.object sixx.id="44" sixx.name="lines" sixx.type="Array" >
-							<sixx.object sixx.idref="22" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-						</sixx.object>
-						<sixx.object sixx.name="lastLine" sixx.idref="19" />
-					</sixx.object>
-					<sixx.object sixx.name="fitWidth" sixx.type="True" />
-				</sixx.object>
-				<sixx.object sixx.id="45" sixx.name="instVarsText" sixx.type="ComposedText" >
-					<sixx.object sixx.id="46" sixx.name="text" sixx.type="Text" >
-						<sixx.object sixx.id="47" sixx.name="string" sixx.type="String" >name
-genre
-author
-release
-price </sixx.object>
-						<sixx.object sixx.id="48" sixx.name="runs" sixx.type="RunArray" >
-							<sixx.object sixx.id="49" sixx.name="runs" sixx.type="Array" >
-								<sixx.object sixx.id="50" sixx.type="SmallInteger" >32</sixx.object>
-							</sixx.object>
-							<sixx.object sixx.id="51" sixx.name="values" sixx.type="Array" >
-								<sixx.object sixx.type="UndefinedObject" />
-							</sixx.object>
-						</sixx.object>
-					</sixx.object>
-					<sixx.object sixx.id="52" sixx.name="compositionWidth" sixx.type="SmallInteger" >36</sixx.object>
-					<sixx.object sixx.id="53" sixx.name="compositionHeight" sixx.type="SmallInteger" >75</sixx.object>
-					<sixx.object sixx.name="wordWrap" sixx.type="True" />
-					<sixx.object sixx.id="54" sixx.name="lineTable" sixx.type="OptimizedLineInformationTable" >
-						<sixx.object sixx.id="55" sixx.name="lines" sixx.type="Array" >
-							<sixx.object sixx.idref="22" />
-							<sixx.object sixx.id="56" sixx.type="SmallInteger" >6</sixx.object>
-							<sixx.object sixx.id="57" sixx.type="SmallInteger" >12</sixx.object>
-							<sixx.object sixx.id="58" sixx.type="SmallInteger" >19</sixx.object>
-							<sixx.object sixx.id="59" sixx.type="SmallInteger" >27</sixx.object>
-							<sixx.object sixx.id="60" sixx.type="SmallInteger" >33</sixx.object>
-						</sixx.object>
-						<sixx.object sixx.id="61" sixx.name="lastLine" sixx.type="SmallInteger" >5</sixx.object>
-					</sixx.object>
-					<sixx.object sixx.name="fitWidth" sixx.type="True" />
-				</sixx.object>
-				<sixx.object sixx.id="62" sixx.name="compositionConnections" sixx.type="Set" ></sixx.object>
+			<sixx.object sixx.id="14" sixx.type="DaskalosClassSymbol" >
+				<sixx.object sixx.id="15" sixx.name="subject" sixx.type="Symbol" >Book</sixx.object>
+				<sixx.object sixx.id="16" sixx.name="position" sixx.type="Rectangle" >160@30 corner: 260@180</sixx.object>
+				<sixx.object sixx.id="17" sixx.name="compositionConnections" sixx.type="Set" ></sixx.object>
 			</sixx.object>
-			<sixx.object sixx.id="63" sixx.type="DaskalosClassSymbol" >
-				<sixx.object sixx.id="64" sixx.name="subject" sixx.type="Symbol" >Customer</sixx.object>
-				<sixx.object sixx.id="65" sixx.name="position" sixx.type="Rectangle" >410@290 corner: 540@410</sixx.object>
-				<sixx.object sixx.id="66" sixx.name="methodsText" sixx.type="ComposedText" >
-					<sixx.object sixx.id="67" sixx.name="text" sixx.type="Text" >
-						<sixx.object sixx.name="string" sixx.idref="15" />
-						<sixx.object sixx.id="68" sixx.name="runs" sixx.type="RunArray" >
-							<sixx.object sixx.id="69" sixx.name="runs" sixx.type="Array" ></sixx.object>
-							<sixx.object sixx.id="70" sixx.name="values" sixx.type="Array" ></sixx.object>
-						</sixx.object>
-					</sixx.object>
-					<sixx.object sixx.name="compositionWidth" sixx.idref="19" />
-					<sixx.object sixx.name="compositionHeight" sixx.idref="19" />
-					<sixx.object sixx.name="wordWrap" sixx.type="True" />
-					<sixx.object sixx.id="71" sixx.name="lineTable" sixx.type="OptimizedLineInformationTable" >
-						<sixx.object sixx.id="72" sixx.name="lines" sixx.type="Array" >
-							<sixx.object sixx.idref="22" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-						</sixx.object>
-						<sixx.object sixx.name="lastLine" sixx.idref="19" />
-					</sixx.object>
-					<sixx.object sixx.name="fitWidth" sixx.type="True" />
-				</sixx.object>
-				<sixx.object sixx.id="73" sixx.name="instVarsText" sixx.type="ComposedText" >
-					<sixx.object sixx.id="74" sixx.name="text" sixx.type="Text" >
-						<sixx.object sixx.id="75" sixx.name="string" sixx.type="String" > </sixx.object>
-						<sixx.object sixx.id="76" sixx.name="runs" sixx.type="RunArray" >
-							<sixx.object sixx.id="77" sixx.name="runs" sixx.type="Array" >
-								<sixx.object sixx.idref="22" />
-							</sixx.object>
-							<sixx.object sixx.id="78" sixx.name="values" sixx.type="Array" >
-								<sixx.object sixx.type="UndefinedObject" />
-							</sixx.object>
-						</sixx.object>
-					</sixx.object>
-					<sixx.object sixx.name="compositionWidth" sixx.idref="29" />
-					<sixx.object sixx.name="compositionHeight" sixx.idref="30" />
-					<sixx.object sixx.name="wordWrap" sixx.type="True" />
-					<sixx.object sixx.id="79" sixx.name="lineTable" sixx.type="OptimizedLineInformationTable" >
-						<sixx.object sixx.id="80" sixx.name="lines" sixx.type="Array" >
-							<sixx.object sixx.idref="22" />
-							<sixx.object sixx.idref="33" />
-							<sixx.object sixx.type="UndefinedObject" />
-						</sixx.object>
-						<sixx.object sixx.name="lastLine" sixx.idref="22" />
-					</sixx.object>
-					<sixx.object sixx.name="fitWidth" sixx.type="True" />
-				</sixx.object>
-				<sixx.object sixx.id="81" sixx.name="compositionConnections" sixx.type="Set" ></sixx.object>
+			<sixx.object sixx.id="18" sixx.type="DaskalosClassSymbol" >
+				<sixx.object sixx.id="19" sixx.name="subject" sixx.type="Symbol" >Person</sixx.object>
+				<sixx.object sixx.id="20" sixx.name="position" sixx.type="Rectangle" >210@290 corner: 320@410</sixx.object>
+				<sixx.object sixx.id="21" sixx.name="compositionConnections" sixx.type="Set" ></sixx.object>
 			</sixx.object>
-			<sixx.object sixx.id="82" sixx.type="DaskalosClassSymbol" >
-				<sixx.object sixx.id="83" sixx.name="subject" sixx.type="Symbol" >Person</sixx.object>
-				<sixx.object sixx.id="84" sixx.name="position" sixx.type="Rectangle" >210@290 corner: 320@410</sixx.object>
-				<sixx.object sixx.id="85" sixx.name="methodsText" sixx.type="ComposedText" >
-					<sixx.object sixx.id="86" sixx.name="text" sixx.type="Text" >
-						<sixx.object sixx.name="string" sixx.idref="15" />
-						<sixx.object sixx.id="87" sixx.name="runs" sixx.type="RunArray" >
-							<sixx.object sixx.id="88" sixx.name="runs" sixx.type="Array" ></sixx.object>
-							<sixx.object sixx.id="89" sixx.name="values" sixx.type="Array" ></sixx.object>
-						</sixx.object>
-					</sixx.object>
-					<sixx.object sixx.name="compositionWidth" sixx.idref="19" />
-					<sixx.object sixx.name="compositionHeight" sixx.idref="19" />
-					<sixx.object sixx.name="wordWrap" sixx.type="True" />
-					<sixx.object sixx.id="90" sixx.name="lineTable" sixx.type="OptimizedLineInformationTable" >
-						<sixx.object sixx.id="91" sixx.name="lines" sixx.type="Array" >
-							<sixx.object sixx.idref="22" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-						</sixx.object>
-						<sixx.object sixx.name="lastLine" sixx.idref="19" />
-					</sixx.object>
-					<sixx.object sixx.name="fitWidth" sixx.type="True" />
-				</sixx.object>
-				<sixx.object sixx.id="92" sixx.name="instVarsText" sixx.type="ComposedText" >
-					<sixx.object sixx.id="93" sixx.name="text" sixx.type="Text" >
-						<sixx.object sixx.id="94" sixx.name="string" sixx.type="String" >name
-surname
-birthday </sixx.object>
-						<sixx.object sixx.id="95" sixx.name="runs" sixx.type="RunArray" >
-							<sixx.object sixx.id="96" sixx.name="runs" sixx.type="Array" >
-								<sixx.object sixx.id="97" sixx.type="SmallInteger" >22</sixx.object>
-							</sixx.object>
-							<sixx.object sixx.id="98" sixx.name="values" sixx.type="Array" >
-								<sixx.object sixx.type="UndefinedObject" />
-							</sixx.object>
-						</sixx.object>
-					</sixx.object>
-					<sixx.object sixx.id="99" sixx.name="compositionWidth" sixx.type="SmallInteger" >47</sixx.object>
-					<sixx.object sixx.id="100" sixx.name="compositionHeight" sixx.type="SmallInteger" >45</sixx.object>
-					<sixx.object sixx.name="wordWrap" sixx.type="True" />
-					<sixx.object sixx.id="101" sixx.name="lineTable" sixx.type="OptimizedLineInformationTable" >
-						<sixx.object sixx.id="102" sixx.name="lines" sixx.type="Array" >
-							<sixx.object sixx.idref="22" />
-							<sixx.object sixx.idref="56" />
-							<sixx.object sixx.id="103" sixx.type="SmallInteger" >14</sixx.object>
-							<sixx.object sixx.id="104" sixx.type="SmallInteger" >23</sixx.object>
-							<sixx.object sixx.type="UndefinedObject" />
-							<sixx.object sixx.type="UndefinedObject" />
-						</sixx.object>
-						<sixx.object sixx.name="lastLine" sixx.idref="29" />
-					</sixx.object>
-					<sixx.object sixx.name="fitWidth" sixx.type="True" />
-				</sixx.object>
-				<sixx.object sixx.id="105" sixx.name="compositionConnections" sixx.type="Set" ></sixx.object>
+			<sixx.object sixx.id="22" sixx.type="DaskalosClassSymbol" >
+				<sixx.object sixx.id="23" sixx.name="subject" sixx.type="Symbol" >Librarian</sixx.object>
+				<sixx.object sixx.id="24" sixx.name="position" sixx.type="Rectangle" >290@80 corner: 430@150</sixx.object>
+				<sixx.object sixx.id="25" sixx.name="compositionConnections" sixx.type="Set" ></sixx.object>
 			</sixx.object>
 		</sixx.object>
-		<sixx.object sixx.id="106" sixx.name="diagramConnections" sixx.type="Set" >
-			<sixx.object sixx.id="107" sixx.type="DaskalosInheritanceConnection" >
+		<sixx.object sixx.id="26" sixx.name="diagramConnections" sixx.type="Set" >
+			<sixx.object sixx.id="27" sixx.type="DaskalosInheritanceConnection" >
 				<sixx.object sixx.name="fromSymbol" sixx.idref="10" />
-				<sixx.object sixx.name="toSymbol" sixx.idref="82" />
+				<sixx.object sixx.name="toSymbol" sixx.idref="18" />
 			</sixx.object>
-			<sixx.object sixx.id="108" sixx.type="DaskalosInheritanceConnection" >
-				<sixx.object sixx.name="fromSymbol" sixx.idref="63" />
-				<sixx.object sixx.name="toSymbol" sixx.idref="82" />
+			<sixx.object sixx.id="28" sixx.type="DaskalosInheritanceConnection" >
+				<sixx.object sixx.name="fromSymbol" sixx.idref="22" />
+				<sixx.object sixx.name="toSymbol" sixx.idref="18" />
 			</sixx.object>
 		</sixx.object>
 	</sixx.object>

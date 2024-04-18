@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 
 <st-source>
-<time-stamp>From VisualWorks® Personal Use Edition, Pre-Release 8.1 (oct14.3) of 24. října 2014 on 18. dubna 2024 at 16:16:46</time-stamp>
+<time-stamp>From VisualWorks® Personal Use Edition, Pre-Release 8.1 (oct14.3) of 24. října 2014 on 18. dubna 2024 at 16:32:16</time-stamp>
 
 
 <class>
@@ -55,7 +55,7 @@
 
 
 <class>
-<name>Customer</name>
+<name>Librarian</name>
 <environment>Smalltalk</environment>
 <super>Person</super>
 <private>false</private>
@@ -71,12 +71,12 @@
 
 
 <class>
-<name>Librarian</name>
+<name>Customer</name>
 <environment>Smalltalk</environment>
 <super>Person</super>
 <private>false</private>
 <indexed-type>none</indexed-type>
-<inst-vars></inst-vars>
+<inst-vars>borrowed_books money </inst-vars>
 <class-inst-vars></class-inst-vars>
 <imports></imports>
 <category>DaskalosUserClasses</category>
@@ -84,6 +84,34 @@
 <package>DaskalosUserClasses</package>
 </attributes>
 </class>
+
+<!-- -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -   -->
+
+
+<methods>
+<class-id>Customer class</class-id> <category>instance variables behavior</category>
+
+<body package="DaskalosUserClasses" selector="instVarTypes">instVarTypes	"	***This is decompiled code.*** 	No source was available"	^(Core.Dictionary new) add: #borrowed_books -&gt; Core.Bag; add: #surname -&gt; Core.String; add: #birthday -&gt; Core.Date; add: #money -&gt; Core.Number; add: #name -&gt; Core.String; yourself</body>
+</methods>
+
+<!-- -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -   -->
+
+
+<methods>
+<class-id>Customer</class-id> <category>accessing</category>
+
+<body package="DaskalosUserClasses" selector="borrowed_books">borrowed_books	"	***This is decompiled code.*** 	No source was available"	^borrowed_books</body>
+
+<body package="DaskalosUserClasses" selector="money">money	"	***This is decompiled code.*** 	No source was available"	^money</body>
+
+<body package="DaskalosUserClasses" selector="money:">money: t1 	"	***This is decompiled code.*** 	No source was available"	money := self checkValue: t1 forVariable: #money.	^self</body>
+</methods>
+
+<methods>
+<class-id>Customer</class-id> <category>instance initialization</category>
+
+<body package="DaskalosUserClasses" selector="initialize">initialize	"	***This is decompiled code.*** 	No source was available"	super initialize.	borrowed_books := Bag new.	money := nil.	^self</body>
+</methods>
 
 
 <class>
